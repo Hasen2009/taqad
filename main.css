@@ -1,0 +1,102 @@
+/* global rules */
+@font-face {
+	font-family: 'bukrabold';
+	font-style: normal;
+	font-weight: 700;
+	src: url(../fonts/29ltbukrabold.ttf);
+}
+
+@font-face {
+	font-family: 'bukra';
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/29ltbukraregular.ttf);
+}
+
+@font-face {
+	font-family: 'bukra-Light';
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/29ltbukralight.ttf);
+}
+body{
+  font-family: 'bukrabold', sans-serif;
+  direction: rtl;
+	color: #FFF;
+	background-color: #F6F7F9;
+}
+a {
+	text-decoration: none;
+}
+/* start header */
+header {
+  background-color: #3d6b90;
+  overflow: hidden;
+}
+header img {
+  width: 10%;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  float: right;
+  margin-right: 26px
+}
+header p {
+  width: 90%;
+  color: #fff;
+  text-align: right;
+  float: right;
+  font-size: 20px;
+  line-height: 2;
+  margin-top: 20px
+}
+/* start container */
+.container {
+  width: 98%;
+  margin: auto;
+  background-color: #FFF;
+  box-shadow: 2px 2px 2px #CCC;
+  overflow: hidden;
+  margin:20px auto;
+  text-align: center;
+  padding-bottom: 30px;
+  box-shadow: 2px 2px 2px #ccc
+}
+.container h3 {
+  color: black;
+  text-align: right;
+  margin-right: 20px
+}
+.container .item {
+  width: 18%;
+  float: right;
+  color: black;
+  border: 2px solid #BBB;
+  margin-right: 1.5%;
+  margin-top: 20px;
+  box-shadow: 1px 1px 1px #3D6B90;
+  background-color: #f3f3f3;
+  cursor: pointer;
+}
+.container .item i{
+  color: #3D6B90;
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+  font-size: 55px;
+  margin-bottom: 20px
+}
+.container .item:hover {
+  background-color: #3D6B90;
+  color: #FFF;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid #fff;
+}
+.container .item:hover i{
+  transition: all 0.3s ease-in-out;
+  color: #FFF
+}
+.container .item h1 {
+  font-size: 17px;
+  padding-bottom: 50px
+}
